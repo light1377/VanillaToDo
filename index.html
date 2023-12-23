@@ -22,7 +22,7 @@
         const input = document.querySelector("[name='task']");
         const ToDoList = document.getElementById('tasks');
 
-        const todoData = []
+        var todoData = []
         const existingTasks = JSON.parse(localStorage.getItem('tasks'));
 
         const todoData = existingTasks || [];
